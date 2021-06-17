@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu:wght@300&display=swap');
+
+.nav {
+    float: right;
+    padding: 15px;
+  }
+
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+div {
+  background-image: url('images\IMG_1456.JPG');
+}
+
+
